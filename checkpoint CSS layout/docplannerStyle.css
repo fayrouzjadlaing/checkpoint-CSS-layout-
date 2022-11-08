@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@300&display=swap");
+* {
+  padding: 0px;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+  box-sizing: border-box;
+}
+/* utility classes*/
+.container {
+  max-width: 1015px;
+
+  margin: auto;
+}
+.current {
+  color: #00b39b;
+}
+
+/*main style */
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #747474;
+  padding: 70px 0px 0px;
+  height: 1000px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+p {
+  text-align: justify;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 -2px 10px;
+}
+.myheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: centre;
+  background-color: #fff;
+}
+.main-nav ul li a:hover {
+  color: #00b39b;
+}
+.navbar .main-nav {
+  display: flex;
+  padding: 0px 9px;
+}
+
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+div img {
+  width: 268px;
+  height: 33px;
+}
+.logo {
+  padding: 15px 100px;
+}
+nav {
+  padding: 15px 250px;
+}
+div ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bold;
+
+  padding: 20px 20px;
+}
+
+div ul li a {
+  color: #ababab;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+header div {
+  display: flex;
+  justify-content: left;
+}
+.dropbtn {
+  /* padding: 16px;*/
+  font-size: 14px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  min-width: 300px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #ababab;
+  /*padding: 5px 10px;*/
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: #00b39b;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  color: #00b39b;
+}
+/* style section */
+.lead h1 {
+  text-align: center;
+}
+#firsth1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.lead {
+  margin: 2.0625rem auto 3.75rem;
+}
+.lead__logo {
+  display: block;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  border: 0;
+}
+.flex {
+  margin: 0 -10px;
+}
+
+.lead p {
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400px;
+}
+
+.col-1 {
+  color: #4e4c4c;
+  height: 111.932px;
+  width: 477.5px;
+  margin: 13px 0 13px 0;
+}
+.col-2 {
+  color: #4e4c4c;
+  height: 111.932px;
+  width: 477.5px;
+  margin: 13px 0 13px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+h1 {
+  margin: 34px 34px;
+}
+.service-section {
+  line-height: 20.8px;
+  background: #ffffff;
+  height: 365px;
+  width: 721.818px;
+  margin: 60px 0 40px 0;
+  padding: 0 20px 0 20px;
+  max-width: 1015px;
+}
+.col-3 {
+  padding: 10px;
+}
+
+.col-3 {
+  width: 213.906px;
+  height: 345px;
+}
+div {
+  display: block;
+}
+div .col-3 {
+  color: #747474;
+  font: 16px;
+  font-family: "robot", sans-serif;
+  padding: 10px;
+}
+h1 {
+  color: #fff;
+  font-size: 20px;
+  margin: 6px 0px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 28.8px;
+  text-decoration: none solid rbg(255, 255, 255);
+  color: #ffffff;
+  height: 144px;
+  width: 173px;
+}
+select {
+  font-family: "robot", "arial", sans sérif;
+  display: inline-block;
+  text-decoration: underline solid rbg(255, 255, 255);
+  height: 40px;
+  width: 172px;
+  padding: 0 38px 0 0;
+  background-color: #00ccb1;
+  color: #fff;
+  font-size: 19.2px;
+  line-height: 24.96px;
+}
+.services-style {
+  background-color: #00ccb1;
+}
+.saas {
+  background-color: #3d83df;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/*
+.offfices .card{
+  border:1px solid #000;
+  offices{
+  display:grid;
+  grid-template-column:repeat(3,1fr)
+  gap:2rem;
+  border-radius:5px;
+}
+.offfices .card:hover{
+  box-shadow:0 5px 10px 0 #d3cfc9;
+}
+  .offices .card img {
+    width:100%;
+  }
+  .offices .card div {
+    dispaly:flex;
+    justify-content:space-betwenn;
+    padding:20px;
+
+
+*/ ;
